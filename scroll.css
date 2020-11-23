@@ -1,0 +1,78 @@
+* {box-sizing:border-box}
+
+.picture_slider{
+  flex-basis: 100%;
+  background-color: #222;
+  position: relative;
+}
+.img_scroll-box{
+  width: 100%;
+  max-height: 470px;
+  overflow: hidden;
+  /*box-shadow: 0px 0px 30px 1px black;*/
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+
+.mySlides-text{
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+
+/* The dots/bullets/indicators */
+._dots{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+}
+.dot {
+  transform: translate(0, 5px);
+  cursor: pointer;
+  height: 10px;
+  width: 60px;
+  margin: 0 15px;
+  background-color: #a0a4a1;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
