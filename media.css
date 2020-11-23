@@ -1,0 +1,8 @@
+@media (min-width: 480px) and (max-width: 1440px) {
+	html{
+
+    font-size: calc(8px + (18 - 8) * ( (100vw - 480px) / ( 1440 - 480) ));
+
+	}
+
+}

@@ -44,6 +44,13 @@ body{
 }
 
 /*ХЭДЕР   -   Самая верхушка сайта*/
+.header_logo{
+	width: 12.63888889%;
+}
+.header_logo img{
+	width: 100%;
+}
+
 .header_inner{
 	padding: 40px 0 10px;
 	display: flex;
@@ -52,11 +59,8 @@ body{
 	width: 100%;
 }
 
-.container_menu{
-	flex-basis: 100%;
-}
+
 .login_button{
-	font-size: 50px;
 	color: #fff;
 	padding: 20px;
 	align-self: center;
@@ -132,12 +136,15 @@ body{
 	flex-direction: column;
 	padding: 0 10px;
 	justify-content: space-between;
+	flex-basis: 100%;
+	flex-wrap: wrap;
 }
 .header_info{
 	display: flex;
 	justify-content: space-around;
 	color: #fff;
 	font-weight: 400;
+	flex-wrap: wrap;
 }
 .adress i{
 	color: #cb0000;
@@ -149,7 +156,6 @@ body{
 	color: #282739;
 	background-color: #fff;
 	border: none;
-	font-size: 12px;
 	width: 75px;
 	height: 22px;
 	border-radius: 4px;
@@ -207,13 +213,13 @@ body{
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 .search input::placeholder{
 	color: #ddd;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 .search button{
 	width: 50px;
@@ -228,7 +234,7 @@ body{
 .search button:before{
 	content: "\f002";
   	font-family: FontAwesome;
-  	font-size: 24px;
+  	font-size: 1.5rem;
   	color: #ccc;
   	transition: all .2s linear;
 }
@@ -322,7 +328,6 @@ body{
 }
 .about_us-h1{
 	text-transform: uppercase;
-	font-size: 48px;
 	color: #000119;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -368,7 +373,7 @@ body{
 	font-weight: 400;
 }
 .map-box{
-	width: 400px;
+	width: 37.777778%;
 	margin-left: 40px;
 }
 .read_more{
@@ -450,7 +455,6 @@ body{
 }
 .ODstylized_h1{
 	text-transform: uppercase;
-	font-size: 48px;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -499,10 +503,10 @@ body{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 45px;
+	font-size: 2.8125rem;
 }
 .dignity_text{
-	font-size: 24px;
+	font-size: 1.5rem;
 	color: #d3d2d6;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -550,22 +554,29 @@ body{
 .partners_title h2{
 	text-transform: uppercase;
 	color: #242237;
-	font-size: 45px;
+	font-size: 2.8125rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
 .partners{
+	margin: 0 auto;
 	width: 80%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .partners-inner{
-	padding: 10px;
 	flex-basis: 16%;
 	overflow: hidden;
+	align-items: center;
+	margin: 1% 0;
+
+	border-radius: 2px;
+	border: 2px #0041a4 solid;
 }
 .partners-inner img{
 	width: 100%;
+	height: 100%;
 }
 
 
@@ -581,60 +592,66 @@ body{
 
 
 
-.f10{font-size: 10px;}
-.f11{font-size: 11px;}
-.f12{font-size: 12px;}
-.f13{font-size: 13px;}
-.f14{font-size: 14px;}
-.f15{font-size: 15px;}
-.f16{font-size: 16px;}
-.f17{font-size: 17px;}
-.f18{font-size: 18px;}
-.f19{font-size: 19px;}
-.f20{font-size: 20px;}
-.f21{font-size: 21px;}
-.f22{font-size: 22px;}
-.f23{font-size: 23px;}
-.f24{font-size: 24px;}
-.f25{font-size: 25px;}
-.f26{font-size: 26px;}
-.f27{font-size: 27px;}
-.f28{font-size: 28px;}
-.f29{font-size: 29px;}
-.f30{font-size: 30px;}
-.f31{font-size: 31px;}
-.f32{font-size: 32px;}
-.f33{font-size: 33px;}
-.f34{font-size: 34px;}
-.f35{font-size: 35px;}
-.f36{font-size: 36px;}
-.f37{font-size: 37px;}
-.f38{font-size: 38px;}
-.f39{font-size: 39px;}
-.f40{font-size: 40px;}
-.f41{font-size: 41px;}
-.f42{font-size: 42px;}
-.f43{font-size: 43px;}
-.f44{font-size: 44px;}
-.f45{font-size: 45px;}
-.f46{font-size: 46px;}
-.f47{font-size: 47px;}
-.f48{font-size: 48px;}
-.f49{font-size: 49px;}
-.f50{font-size: 50px;}
-.f51{font-size: 51px;}
-.f52{font-size: 52px;}
-.f53{font-size: 53px;}
-.f54{font-size: 54px;}
-.f55{font-size: 55px;}
-.f56{font-size: 56px;}
-.f57{font-size: 57px;}
-.f58{font-size: 58px;}
-.f59{font-size: 59px;}
-.f60{font-size: 60px;}
+.f10{font-size: 0.625rem;}
+.f11{font-size: 0.6875rem;}
+.f12{font-size: 0.75rem;}
+.f13{font-size: 0.8125rem;}
+.f14{font-size: 0.875rem;}
+.f15{font-size: 0.9375rem;}
+.f16{font-size: 1rem;}
+.f17{font-size: 1.0625rem;}
+.f18{font-size: 1.125rem;}
+.f19{font-size: 1.1875rem;}
+.f20{font-size: 1.25rem;}
+.f21{font-size: 1.3125rem;}
+.f22{font-size: 1.375rem;}
+.f23{font-size: 1.4375rem;}
+.f24{font-size: 1.5rem;}
+.f25{font-size: 1.5625rem;}
+.f26{font-size: 1.625rem;}
+.f27{font-size: 1.6875rem;}
+.f28{font-size: 1.75rem;}
+.f29{font-size: 1.8125rem;}
+.f30{font-size: 1.875rem;}
+.f31{font-size: 1.9375rem;}
+.f32{font-size: 2rem;}
+.f33{font-size: 2.0625rem;}
+.f34{font-size: 2.125rem;}
+.f35{font-size: 2.1875rem;}
+.f36{font-size: 2.25rem;}
+.f37{font-size: 2.3125rem;}
+.f38{font-size: 2.375rem;}
+.f39{font-size: 2.4375rem;}
+.f40{font-size: 2.5rem;}
+.f41{font-size: 2.5625rem;}
+.f42{font-size: 2.625rem;}
+.f43{font-size: 2.6875rem;}
+.f44{font-size: 2.75rem;}
+.f45{font-size: 2.8125rem;}
+.f46{font-size: 2.875rem;}
+.f47{font-size: 2.9375rem;}
+.f48{font-size: 3rem;}
+.f49{font-size: 3.0625rem;}
+.f50{font-size: 3.125rem;}
+.f51{font-size: 3.1875rem;}
+.f52{font-size: 3.25rem;}
+.f53{font-size: 3.3125rem;}
+.f54{font-size: 3.375rem;}
+.f55{font-size: 3.4375rem;}
+.f56{font-size: 3.5rem;}
+.f57{font-size: 3.5625rem;}
+.f58{font-size: 3.625rem;}
+.f59{font-size: 3.6875rem;}
+.f60{font-size: 3.75rem;}
+.f61{font-size: 3.8125rem;}
+.f62{font-size: 3.875rem;}
+.f63{font-size: 3.9375rem;}
+.f64{font-size: 4rem;}
 .Noto{
 	font-family: "Noto", serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-bottom: 40px;
 }
+
+

@@ -26,3 +26,22 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
+//подгон картинок партнёров под 1 размер
+$(function(){
+  $('.partners-inner').height($('.partners-inner').width()); 
+
+  $(window).resize(function(){
+    $('.partners-inner').height($('.partners-inner').width());
+  });
+});
+
+$(function(){
+  $('.map-box').height($('.map-box').width()); 
+
+  $(window).resize(function(){
+    $('.map-box').height($('.map-box').width());
+  });
+});
